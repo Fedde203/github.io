@@ -1,0 +1,103 @@
+body {
+  background-color: #eeeeee;
+  background-image: url("bayernlogo.png");
+  background-size: 50%;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+header {
+  border-radius: 20px;
+  border: 5px solid SlateBlue;
+  text-align: center;
+  color: white;
+  background: tomato;
+}
+.maincontainer {
+  width: 70%;
+  float: left;
+  padding-right: 50px;
+  margin-left: 20px;
+}
+.navcontainer {
+  background-color: tomato;
+  border-radius: 20px;
+  border: 5px solid SlateBlue;
+  width: 20%;
+  float: left;
+  color: white;
+  text-align: center;
+}
+article section {
+  width: 20%;
+  margin: 10px;
+  padding: 10px;
+  float: left;
+  border-radius: 20px;
+  border: 3px solid black;
+  background: white;
+}
+article section img {
+  width: 100%;
+  border-radius: 20px;
+}
+article section h4{
+  text-align: center;
+  margin: 3px;
+}
+article section p {
+  padding-left: 10px;
+}
+.navcontainer a:link, .navcontainer a:visited {
+  display: inline-block;
+  background: #6cc1c8;
+  border-radius: 20px;
+  border: 3px solid SlateBlue;
+  text-decoration: none;
+  margin: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 210px;
+}
+.navcontainer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 200px;
+}
+.navcontainer a:hover {
+  background: #40a3aa;
+}
+article .section2 {
+  width: 20%;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 3px solid black;
+  background: white;
+  float:left;
+}
+article .section2 img {
+  width: 100%;
+  border-radius: 20px;
+}
+article .text {
+  float: left;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 3px solid black;
+  background: white;
+}
+article .text h4{
+  text-align: center;
+  margin: 3px;
+}
+article .text p {
+  padding-left: 10px;
+}
+footer {
+  width: 100%;
+  float: left;
+  margin: 40px;
+}
